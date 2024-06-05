@@ -1,0 +1,53 @@
+/* ROOT, DEFAULT STYLE */
+a,img,li{
+      cursor: pointer;
+}
+body{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+
+/* ============== HEADER ================= */
+header{
+      display: flex;
+      justify-content: space-between;
+      border-radius: 10px;
+      margin-left: 5vw;
+      width: 90vw;
+      border: 1px solid gray;
+      padding: 10px ;
+      box-shadow: 0px 5px 5px gray;
+}
+
+#logo{width: 50px; height: 50px; margin-left: 50px;}
+.menu{margin-right: 50px;}
+
+ul{
+      display: flex;
+      gap: 20px;
+}
+ul li{
+      display: inline-block;
+      list-style: none;
+      transition: 1s;
+}
+ul li:hover{
+      box-shadow: 0px 2px 0px black;
+}
+/* ============================================================================= */
+
+
+
+
+
+
+/* ============== MAIN ================= */
+main{
+      @media (min-width: 1300px){
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+      }
+      
+}
