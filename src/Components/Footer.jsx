@@ -86,6 +86,11 @@ const TitleBtn = styled.button`
 const Links = styled.div`
       display: flex;
       justify-content: space-between;
+      
+      @media(max-width: 500px){
+            display: grid;
+            grid-template-columns: 40% 40%;
+      }
 `
 const Company = styled.ul`
       display: flex;
