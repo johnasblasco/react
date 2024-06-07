@@ -13,7 +13,7 @@ function Section({img,name,description}) {
 export default Section
 
 const Card = styled.div`
-      margin: 20px;
+      margin: 2vw;
       display: inline-block;
       text-align: center;
       width: 250px;

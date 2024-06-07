@@ -7,6 +7,10 @@ function Footer() {
             padding: '0',
             margin: '0'
       }
+      const hr = {
+            border: '1px solid darkgray'
+      }
+      
 
   return (
     <footer>
@@ -66,7 +70,7 @@ function Footer() {
 
       
       </Links>
-      <hr />
+      <hr style={hr}/>
 
     </footer>
   )

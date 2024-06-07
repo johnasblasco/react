@@ -3,6 +3,8 @@ a,img,li,button{
       cursor: pointer;
 }
 body{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: rgb(63, 61, 61);
       margin: 0;
       padding: 0;
       box-sizing: border-box;
@@ -24,7 +26,19 @@ header{
 }
 
 #logo{width: 50px; height: 50px; margin-left: 50px;}
-.menu{margin-right: 50px;}
+.menu{
+      margin-right: 50px; 
+      display: flex;
+      align-items: center;
+      gap: 10px;
+}
+nav{  
+      display: flex;
+      align-items: center;
+      @media(max-width: 768px) {
+      display: none;
+}}
+
 
 ul{
       display: flex;
@@ -33,6 +47,7 @@ ul{
 ul li{
       display: inline-block;
       list-style: none;
+      
 }
 ul li:hover{
       box-shadow: 0px 2px 0px black;
@@ -47,10 +62,12 @@ ul li:hover{
 /* ============== MAIN ================= */
 main{
       padding-top: 12vh;
+      margin: 0 3vw;
       @media (min-width: 1300px){
             display: grid;
             grid-template-columns: 25% 25% 25% 25%;
       }
+      
       
 }
 /* ============================================================================= */
@@ -65,5 +82,5 @@ main{
 
 footer{
       background-color: black;
-      padding: 10vh 10vw;
+      padding: 20vh 5vw;
 }
